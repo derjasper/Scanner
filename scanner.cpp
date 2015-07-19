@@ -41,7 +41,7 @@ namespace scanner {
     }
     
     
-    
+    // credit for this method goes to http://stackoverflow.com/questions/13269432/perspective-transform-crop-in-ios-with-opencv
     std::vector<cv::Point2f> find_square(const cv::Mat& image)
     {
         
